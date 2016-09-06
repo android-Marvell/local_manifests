@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<project name="android-Marvell/android_device_samsung_degaswifi" path="device/samsung/degaswifi" remote="github" revision="cm-11.0" />
+	<project name="android-Marvell/android_kernel_marvell_pxa1088"   path="kernel/marvell/pxa1088"   remote="github" revision="cm-11.0" />
+
+</manifest>
