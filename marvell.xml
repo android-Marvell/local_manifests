@@ -3,6 +3,11 @@
 	
 	<remote name="github" fetch="https://github.com" />
 
-	<project name="android-Marvell/android_device_marvell_common" path="device/marvell/common" remote="github" revision="android-4.4.4_r2" />
-	
+	<!-- Common -->
+	<project name="android-Marvell/android_device_marvell_common" path="device/marvell/common" remote="github" revision="android-4.4.4_r2"  />
+
+	<!-- PXA1088 -->
+	<project name="android-Marvell/android_kernel_marvell_pxa1088" path="kernel/marvell/pxa1088" remote="github" revision="android-4.4.4_r2" />
+	<project name="android-Marvell/android_vendor_marvell_pxa1088" path="vendor/marvell/pxa1088" remote="github" revision="stock-KK" />
+
 </manifest>
