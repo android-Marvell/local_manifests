@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
+	<!-- Remotes -->
 	<remote name="github" fetch="https://github.com" />
+
+	<!-- Blacklist -->
+	<remove-project name="platform/build" />
+
+	<!-- Android Source -->
+	<project name="android-Marvell/android_build" path="build" remote="github" revision="kk4.4" />
 
 	<!-- Common -->
 	<project name="android-Marvell/android_device_marvell_common" path="device/marvell/common" remote="github" revision="kk4.4"  />
