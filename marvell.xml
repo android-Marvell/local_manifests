@@ -6,12 +6,14 @@
 
 	<!-- Blacklist -->
 	<remove-project name="platform/build" />
+	<remove-project name="platform/hardware/broadcom/wlan"/>
 
 	<!-- Android Source -->
-	<project name="android-Marvell/android_build" path="build" remote="github" revision="kk4.4" />
-
+	<project name="android-Marvell/android_build"                    path="build"                    remote="github" revision="kk4.4" />
+	<project name="android-Marvell/android_hardware_broadcom_wlan"   path="hardware/broadcom/wlan"   remote="github" revision="kk4.4" />
+	
 	<!-- Common -->
-	<project name="android-Marvell/android_device_marvell_common" path="device/marvell/common" remote="github" revision="kk4.4"  />
+	<project name="android-Marvell/android_device_marvell_common"    path="device/marvell/common"    remote="github" revision="kk4.4"  />
 
 	<!-- PXA1088 -->
 	<project name="android-Marvell/android_kernel_marvell_pxa1088"   path="kernel/marvell/pxa1088"   remote="github" revision="kk4.4" />
